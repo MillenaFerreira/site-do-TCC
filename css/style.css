@@ -1,0 +1,40 @@
+:root {
+    --menu: #00c7c4;
+    --icon-color: #252525;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+    font-family: 'Ubuntu', sans-serif;
+    color: #000;
+    background-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #00c7c4;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+}
+.section-inicio{
+    background-color: brown;
+    height: 92vh;
+}
+.section-sobreNos{
+    background-color: darkblue;
+    height: 100vh;
+}
+.section-equipe{
+    background-color: green;
+    height: 100vh;
+
+}

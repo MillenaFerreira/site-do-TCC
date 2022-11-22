@@ -1,0 +1,17 @@
+.section-inicio{
+    background-color: brown;
+    height: 92vh;
+}
+.section-inicio div{
+    display: flex;
+    justify-content: center;
+    padding: 72px;
+}
+.section-sobreNos{
+    background-color: darkblue;
+    height: 100vh;
+}
+.section-equipe{
+    background-color: green;
+    height: 100vh;
+}
