@@ -1,0 +1,14 @@
+.equipe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+.title{
+    font-size: 2.5rem;
+}
+.equipe img {
+    width: 100%;
+}

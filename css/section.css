@@ -1,5 +1,5 @@
 .section-inicio{
-    background-color: brown;
+    background-color: #C9FBFA;
     height: 92vh;
 }
 .section-inicio div{
@@ -8,8 +8,10 @@
     padding: 72px;
 }
 .section-sobreNos{
-    background-color: darkblue;
+    background-color: #99EBE9;
     height: 100vh;
+    display: flex;
+    align-items: center;
 }
 .section-equipe{
     background-color: green;
