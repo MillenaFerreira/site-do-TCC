@@ -23,7 +23,6 @@ section.module p{
     justify-content: center;
     height: 100vh !important;
     width: 100%;
-    
     overflow: hidden;
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -47,4 +46,5 @@ section.module p{
   
   section.module.parallax-1{
     background-image: url("https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=");
+    
   }

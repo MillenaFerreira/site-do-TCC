@@ -5,3 +5,9 @@
     gap: 40px;   
     font-size: 2rem;
 }
+.tudo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 15px;
+}

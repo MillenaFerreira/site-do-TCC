@@ -1,11 +1,23 @@
+section{
+    height: 100vh;
+}
 .section-inicio{
     background-color: #C9FBFA;
-    height: 92vh;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 .section-inicio div{
     display: flex;
     justify-content: center;
+    align-items: center;
     /* padding: 72px; */
+}
+.imagem{
+    height: 100%;
+    width: 90%;
 }
 
 .section-sobreNos{
@@ -30,15 +42,31 @@
    
 }
 .espaco{
-    height: 15vh;
+    height: 10vh;
+}
+.footer{
+    display: flex;
+    height: 10vh;
+    width: 100%; 
+    
 }
 footer{
     background-color: blueviolet;
-    height: 25vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    padding-top: 5vh;
+    gap: 30px;
+    
 }
+.content {
+    color: cornsilk;
+    padding: 20px;
+    min-height: 100%;
+    margin: 0 auto -50px;
+    z-index: 9;
+  }
+  
+  
+  
