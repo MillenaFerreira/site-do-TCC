@@ -5,8 +5,9 @@
 .section-inicio div{
     display: flex;
     justify-content: center;
-    padding: 72px;
+    /* padding: 72px; */
 }
+
 .section-sobreNos{
     background-color: #99EBE9;
     height: 100vh;
@@ -15,5 +16,29 @@
 }
 .section-equipe{
     background-color: green;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.espaco{
+    height: 15vh;
+}
+footer{
+    background-color: blueviolet;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 5vh;
 }

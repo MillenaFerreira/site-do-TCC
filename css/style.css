@@ -9,6 +9,8 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: #000;
     background-color: black;
+    word-wrap: break-word; // tamanho do container se adapta
+    overflow-wrap: break-word; // e quando chegar no final o o texto irá quebrar
 }
 
 html {
